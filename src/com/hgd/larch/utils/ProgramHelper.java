@@ -10,19 +10,16 @@ import com.hgd.larch.utils.ProgramHelper;
 public class ProgramHelper {
 	private static ProgramHelper helper;
 
-	public final int maxLength = 1000;
+	public final int maxLength = 3000;
 	public char[] program;
 	public int index;
 	public String currentWord;
 	public int currentKey;
 	public int currentType;
-	public HashMap<String,Integer> markLoc;
 	public Operator op;
 	public KeyWord keyWord;
-	//´æ´¢ÊýÖµÐÍ±äÁ¿
+	//ï¿½æ´¢ï¿½ï¿½Öµï¿½Í±ï¿½ï¿½ï¿½
 	public HashMap<String,Double> numberMap=new HashMap<String,Double>();
-	//´æ´¢×Ö·ûÐÍ±äÁ¿
-	public HashMap<String,String> stringMap=new HashMap<String,String>();
 		
 	public ProgramHelper(){
 		currentWord = "";
@@ -30,7 +27,6 @@ public class ProgramHelper {
 		currentType = WordType.NONE.ordinal();
 		program = new char[maxLength];
 		index = 0;
-		markLoc = new HashMap<String,Integer>();
 		op = Operator.getOperator();
 		keyWord = KeyWord.getKeyWord();
 	}

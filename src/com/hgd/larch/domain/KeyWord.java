@@ -25,7 +25,9 @@ public static HashMap<String, Integer> keyWordMap;
 		keyWordMap.put("else", KeyWordType.ELSE.ordinal());
 		keyWordMap.put("for", KeyWordType.FOR.ordinal());
 		keyWordMap.put("none", KeyWordType.NONE.ordinal());
-		keyWordMap.put("uncertain", KeyWordType.UNCERTAIN.ordinal());		
+		keyWordMap.put("uncertain", KeyWordType.UNCERTAIN.ordinal());
+		keyWordMap.put("all", KeyWordType.ALL.ordinal());
+		
 	}
 	
 	public static synchronized KeyWord getKeyWord(){

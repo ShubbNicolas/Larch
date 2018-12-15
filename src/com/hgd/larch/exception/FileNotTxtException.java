@@ -3,7 +3,7 @@ package com.hgd.larch.exception;
 public class FileNotTxtException extends Exception{
 
 	public FileNotTxtException() {
-        super("不是TXT文件");
+        super("Test file is not .txt!");
     }
 	
 	public FileNotTxtException(String message) {

@@ -2,7 +2,7 @@ package com.hgd.larch.domain;
 
 public enum KeyWordType{
 	//Larch key words
-	//Larch结构关键字
+	//Larch锟结构锟截硷拷锟斤拷
 	TRAIT,
 	INCLUDES,
 	INTRODUCES,
@@ -15,12 +15,15 @@ public enum KeyWordType{
 	EXEMPTING,
 	ASSUMES,
 	
-	//结构内关键字
+	//
 	IF,
 	THEN,
 	ELSE,
 	FOR,
+	ALL,
 	
 	NONE,
-	UNCERTAIN
+	UNCERTAIN;
+	
+	
 }
